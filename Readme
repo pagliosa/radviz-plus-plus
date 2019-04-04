@@ -1,0 +1,12 @@
+To run RadViz++, please follow the steps below:
+
+1) Download RadViz++.rar and extract the files in the folder/directory X
+2) We must open a local server in X. For instance, I used python to open a local server in the door 8000:
+  "python -m http.server 8000"
+3) Open a browser (I recommend using Chrome) and type: http://localhost:8000/
+4) Select RadViz++ in the option menu
+5) For changing the dataset, go to X/html/dummies/radviz.html and edit the variable: 
+  var data = "http://localhost:8000/datasets/segmentation.csv"
+Also, remember to put the file in X/datasets/
+
+Please, any doubts or suggestions, please contact carvalho.pagliosa@gmail.com. 
